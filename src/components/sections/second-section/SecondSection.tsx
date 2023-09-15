@@ -3,7 +3,7 @@ import React from "react";
 
 function SecondSection() {
   return (
-    <div className="relative flex h-[450px] md:w-full pt-36 xl:items-center   flex-col items-center justify-center w-full  ">
+    <div className="relative bg-white flex h-[450px] md:w-full pt-36 xl:items-center   flex-col items-center justify-center w-full  ">
       <div className="relative flex h-[450px] 2xl:max-w-[80%]  w-full ">
         <div className="w-1/5 space-y-16 left-0">
           <div className=" space-y-1">

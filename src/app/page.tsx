@@ -1,8 +1,9 @@
 "use client";
+import EightSection from "@/components/sections/eight-section/EightSection";
 import FourthSection from "@/components/sections/fourth-section/FourthSection";
 import HeaderSection from "@/components/sections/header-section/HeaderSection";
 import SecondSection from "@/components/sections/second-section/SecondSection";
-import ThirdSection from "@/components/sections/third-sction/ThirdSection";
+import ThirdSection from "@/components/sections/third-section/ThirdSection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <SecondSection />
       <ThirdSection />
       <FourthSection />
+      <EightSection />
     </main>
   );
 }

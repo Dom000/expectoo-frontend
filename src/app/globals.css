@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.animatebg {
+  @apply inline-block relative overflow-hidden hover:before:left-0;
+}
+.animatebg::before {
+  @apply content-[""] absolute w-full h-full bg-[#e8238c8a] transition-[left] duration-[0.3s] ease-[ease] z-[-1] -left-full top-0;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

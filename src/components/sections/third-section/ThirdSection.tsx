@@ -19,7 +19,7 @@ function ThirdSection() {
               onMouseLeave={() => setservicelink("")}
               className="flex w-full space-x-3 top-8 absolute"
             >
-              <div className="hover:bg-pink-700/60    w-2/4 pl-16 cursor-pointer">
+              <div className="  animatebg   w-2/4 pl-16 cursor-pointer">
                 <p className="text-md  font-bold">Software Development</p>
               </div>
               {servicelink == "01" && (
@@ -31,7 +31,7 @@ function ThirdSection() {
               onMouseLeave={() => setservicelink("")}
               className="flex w-full space-x-3 top-16 absolute"
             >
-              <div className="hover:bg-pink-700/60    w-2/4 pl-16 cursor-pointer">
+              <div className=" animatebg    w-2/4 pl-16 cursor-pointer">
                 <p className="text-md  font-bold">IT Consultation</p>
               </div>
               {servicelink == "02" && (
@@ -43,7 +43,7 @@ function ThirdSection() {
               onMouseLeave={() => setservicelink("")}
               className="flex w-full space-x-3 top-24 absolute"
             >
-              <div className="hover:bg-pink-700/60    w-2/4 pl-16 cursor-pointer">
+              <div className=" animatebg    w-2/4 pl-16 cursor-pointer">
                 <p className="text-md  font-bold">Software Training</p>
               </div>
               {servicelink == "03" && (
@@ -55,7 +55,7 @@ function ThirdSection() {
               onMouseLeave={() => setservicelink("")}
               className="flex w-full space-x-3 top-32 absolute"
             >
-              <div className="hover:bg-pink-700/60    w-2/4 pl-16 cursor-pointer">
+              <div className=" animatebg    w-2/4 pl-16 cursor-pointer">
                 <p className="text-md  font-bold">Software Maintenance</p>
               </div>
               {servicelink == "04" && (
@@ -67,7 +67,7 @@ function ThirdSection() {
               onMouseLeave={() => setservicelink("")}
               className="flex w-full space-x-3 top-40 absolute"
             >
-              <div className="hover:bg-pink-700/60    w-2/4 pl-16 cursor-pointer">
+              <div className=" animatebg    w-2/4 pl-16 cursor-pointer">
                 <p className="text-md  font-bold">Tech Recruitment</p>
               </div>
               {servicelink == "05" && (
@@ -79,7 +79,7 @@ function ThirdSection() {
               onMouseLeave={() => setservicelink("")}
               className="flex w-full space-x-3 top-48 absolute"
             >
-              <div className="hover:bg-pink-700/60    w-2/4 pl-16 cursor-pointer">
+              <div className=" animatebg    w-2/4 pl-16 cursor-pointer">
                 <p className="text-md  font-bold">Quality Assurance</p>
               </div>
               {servicelink == "06" && (

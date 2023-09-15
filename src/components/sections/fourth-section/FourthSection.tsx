@@ -8,7 +8,7 @@ import {
 function FourthSection() {
   return (
     <>
-      <div className="relative flex h-[450px] md:w-full pt-36 xl:items-center   flex-col items-center justify-center w-full  ">
+      <div className="relative bg-white flex h-[450px] md:w-full pt-36 xl:items-center   flex-col items-center justify-center w-full  ">
         <div className="relative flex   justify-center items-center 2xl:max-w-[80%]  w-full ">
           <div className="flex justify-center relative items-center w-full">
             <div className="w-full h-5 p-5  bg-pink-200"></div>
@@ -57,7 +57,7 @@ function FourthSection() {
           </div>
         </div>
       </div>
-      <div className="relative flex   justify-end mt-20 p-10 items-end 2xl:max-w-[80%]  w-full ">
+      <div className="relative flex  bg-white justify-end  h-56 p-10 items-end 2xl:max-w-[80%]  w-full ">
         <div className="flex items-center justify-center space-x-3 pr-48">
           <HiOutlineArrowNarrowLeft className="text-lg text-gray-600 " />
           <p>Order</p>
