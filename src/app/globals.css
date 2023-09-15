@@ -13,8 +13,8 @@
   text-shadow: 1px 1px 2px;
 }
 
-section {
-  height: 100vh;
+#zoom-out {
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

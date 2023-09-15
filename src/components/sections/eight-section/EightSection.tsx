@@ -3,6 +3,7 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import React, { useEffect } from "react";
+import Footer from "../footer-section/Footer";
 function EightSection() {
   gsap.registerPlugin(ScrollTrigger);
 
@@ -23,7 +24,7 @@ function EightSection() {
     const Window = window;
 
     gsap.to("#zoom-out h2", {
-      scale: Window.innerWidth > 1500 ? 400 : 160,
+      scale: Window.innerWidth > 1500 ? 400 : 200,
       stagger: 3,
       duration: 1,
       scrollTrigger: {
@@ -41,7 +42,7 @@ function EightSection() {
         id="zoom-out"
         className="bg-white flex flex-col items-center justify-center"
       >
-        <h2 className="bg-clip-text tracking-widest text-[169px] font-bold border-4 text-shadow border-white text-transparent bg-contain bg-[url('/diamond-sunset.svg')] bg-no-repeat">
+        <h2 className="bg-clip-text tracking-widest text-[140px] font-bold border-4 text-shadow border-white text-transparent bg-contain bg-[url('/diamond-sunset.svg')] bg-no-repeat">
           Expec-too
         </h2>
       </section>
@@ -51,12 +52,12 @@ function EightSection() {
       >
         <div
           id="footer"
-          className="w-[70%] h-[80%] p-5 leading-[45px] tracking-[0.5rem] text-white flex flex-col items-center text-5xl font-bold"
+          className="w-[70%] h-screen p-5 leading-[45px]  tracking-[0.5rem] text-white flex flex-col items-center justify-center text-5xl font-bold"
         >
           <h2>You are in good company here,Start with a free quote</h2>
         </div>
-        <div id="footer2" className="w-full h-screen p-5 bg-slate-500">
-          <h2>footer2</h2>
+        <div id="footer2" className="w-full ">
+          <Footer />
         </div>
       </div>
     </div>
