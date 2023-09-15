@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import { GoDotFill } from "react-icons/go";
 import Map from "./Map";
