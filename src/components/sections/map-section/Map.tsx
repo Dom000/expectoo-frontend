@@ -1,9 +1,12 @@
-import dynamic from "next/dynamic";
-const VectorMap = dynamic(
-  // @ts-ignore
-  () => import("@react-jvectormap/core").then((m) => m.VectorMap),
-  { ssr: false }
-);
+"use client";
+
+import { VectorMap } from "@react-jvectormap/core";
+// import dynamic from "next/dynamic";
+// const VectorMap = dynamic(
+//   // @ts-ignore
+//   () => import("@react-jvectormap/core").then((m) => m.VectorMap),
+//   { ssr: false }
+// );
 
 import { worldMill } from "@react-jvectormap/world";
 import React from "react";
