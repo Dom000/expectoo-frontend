@@ -4,21 +4,24 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import React, { useEffect } from "react";
 function EightSection() {
-  const Window = window;
   gsap.registerPlugin(ScrollTrigger);
 
   useEffect(() => {
+    const Window = window;
+
     gsap.from("#zoom-in #zoom-out", {
       scale: 10,
       scrollTrigger: {
         trigger: "#zoom-in",
         pin: true,
-        end: `-=${innerHeight * 0.3}`,
+        end: `-=${Window.innerHeight * 0.3}`,
         scrub: 1,
       },
     });
   }, []);
   useEffect(() => {
+    const Window = window;
+
     gsap.to("#zoom-out h2", {
       scale: Window.innerWidth > 1500 ? 400 : 160,
       stagger: 3,
