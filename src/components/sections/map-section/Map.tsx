@@ -1,4 +1,10 @@
-import { VectorMap } from "@react-jvectormap/core";
+import dynamic from "next/dynamic";
+const VectorMap = dynamic(
+  // @ts-ignore
+  () => import("@react-jvectormap/core").then((m) => m.VectorMap),
+  { ssr: false }
+);
+
 import { worldMill } from "@react-jvectormap/world";
 import React from "react";
 
@@ -33,7 +39,7 @@ function Map({
           zoomOnScroll={false}
           markers={locations}
           markerStyle={markerStyle}
-          onMarkerTipShow={function markerTip(_, label, __) {
+          onMarkerTipShow={function markerTip(event, label, code) {
             //@ts-ignore
 
             setclientinfo(label.html());

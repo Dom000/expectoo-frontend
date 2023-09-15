@@ -24,7 +24,7 @@ function MapSection() {
             </div>
           </div>
           <div className="w-3/4">
-            <Map  setclientinfo={setclientinfo}/>
+            <Map setclientinfo={setclientinfo} />
           </div>
         </div>
       </div>
