@@ -1,7 +1,6 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import React, { LegacyRef, useEffect, useLayoutEffect, useRef } from "react";
-import { EasePack } from "gsap/EasePack";
+import React, { useEffect } from "react";
 function EightSection() {
   const Window = window;
   gsap.registerPlugin(ScrollTrigger);
