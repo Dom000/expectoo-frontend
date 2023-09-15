@@ -37,7 +37,7 @@ function EightSection() {
         id="zoom-out"
         className="bg-white flex flex-col items-center justify-center"
       >
-        <h2 className="bg-clip-text tracking-widest text-[170px] font-bold border-4 text-shadow border-white text-transparent bg-cover bg-[url('/diamond-sunset.svg')] bg-no-repeat">
+        <h2 className="bg-clip-text tracking-widest text-[169px] font-bold border-4 text-shadow border-white text-transparent bg-cover bg-[url('/diamond-sunset.svg')] bg-no-repeat">
           Expec-too
         </h2>
       </section>
