@@ -7,10 +7,13 @@ import SecondSection from "@/components/sections/second-section/SecondSection";
 import Team from "@/components/sections/team-section/Team";
 import Swipe from "@/components/sections/testimony-section/Swipes";
 import ThirdSection from "@/components/sections/third-section/ThirdSection";
+import { useEffect } from "react";
 
 export default function Home() {
+ 
+
   return (
-    <main className="w-full  ">
+    <main className="w-full hidden xl:block ">
       <HeaderSection />
       <SecondSection />
       <ThirdSection />
